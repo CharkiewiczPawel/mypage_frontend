@@ -1,0 +1,8 @@
+.space{
+    position: absolute;
+    display: flex;
+    height: 250vh;
+    margin-top: -80vh;
+    z-index: -1;
+    transform: translateX(10VW);
+}

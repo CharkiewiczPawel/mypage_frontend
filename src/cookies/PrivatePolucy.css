@@ -1,0 +1,36 @@
+.privatePolicyIndependet{
+    width: 100vw;
+    height: 120vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828db;
+    z-index: 40;
+    margin-top: -15vh;
+    color: black;
+    font-family: 'Smooch Sans', sans-serif;
+}
+.private_container{
+    background: whitesmoke;
+    width: 40vw;
+    padding: 5px;      
+}
+.buttonPrivetPolicyIntependet{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 480px){
+    .private_container{
+        width: 80vw;
+    }
+}
+
+@media(min-width:481px) and (max-width:900px){
+    .private_container{
+        width: 80vw;
+    }
+}

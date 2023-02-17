@@ -1,0 +1,60 @@
+.mainSlick{
+    background: #BDBDBD ;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 20px;
+    
+}
+
+.slick{
+    width:80vw;
+}
+
+  .next{
+    right:0%;
+    top:50%;
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .prev{
+    left:0%;
+    top:50%;
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 10;
+  }
+.slickElementDiv{
+    background: rgb(116, 116, 116);
+    max-width: 350px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin:0 auto;
+}
+.slickElementDiv:hover{
+opacity: 0.8;
+transition: 0.5s;
+}
+.slickElementDiv img{
+    width:70%;
+    height: 70%;
+    margin-top: 10px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.slickBoardInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slickBoardInfo h2{
+   margin-top: -20px; 
+}

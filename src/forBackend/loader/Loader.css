@@ -1,0 +1,73 @@
+.first_loading_container{
+    display: flex;
+    position: absolute;
+    background-color: #151617c2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .loading_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-top: -30vh;
+  }
+  .loading_rocket{
+    animation:rocketRotate 4s linear 0s infinite;
+    position: absolute;
+    margin-top: 10vh;
+  }
+
+  @keyframes rocketRotate{
+    0%{
+      transform: rotate(-360deg) scale(0.1);
+    }100%{
+      transform: rotate(0deg) scale(0.1);
+    }
+    }
+
+    .loading_earth{
+        transform:  scale(0.05);
+        margin-top: 10vh;
+      }
+      .textLoad_container{
+        display: flex;
+        flex-direction: row;    
+      }
+      
+      .dot{
+        font-size: 70px;
+        color:#E3F2FD;
+        font-weight: bold;
+        margin-top: -15vh;
+      }
+      .dot1{
+        animation:animateDot1 2s linear 0s infinite;
+      }
+      .dot2{
+        animation:animateDot2 2s linear 0.5s infinite;
+      }
+      .dot3{
+        animation:animateDot3 2s linear 1s infinite;
+      }
+      @keyframes animateDot1{
+        0%{transform: translateY(0px);}
+        25%{transform: translateY(-10px);}
+        75%{transform: translateY(10px);}
+      }
+      @keyframes animateDot2{
+        0%{transform: translateY(0px);}
+        25%{transform: translateY(-10px);}
+        75%{transform: translateY(10px);}
+      }
+      @keyframes animateDot3{
+        0%{transform: translateY(0px);}
+        25%{transform: translateY(-10px);}
+        75%{transform: translateY(10px);}
+      }

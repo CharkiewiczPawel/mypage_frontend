@@ -1,0 +1,28 @@
+.AppSC{
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+  }
+  .headerSC{
+    text-align: center;
+  }
+  .h1SC{
+    font-size: 40px;
+  }
+  .h2SC{
+    font-size: 35px;
+    text-align: center;
+  }
+  .pSC{
+    font-size: 30px;
+    text-align: justify;
+  }
+  .progress-barSC {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background: linear-gradient(90deg, rgba(105,240,174,1) 22%, rgba(0,200,83,1) 78%);;
+    transform-origin: 0%;
+  }

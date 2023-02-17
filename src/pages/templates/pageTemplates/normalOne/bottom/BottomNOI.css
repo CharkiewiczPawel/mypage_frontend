@@ -1,0 +1,25 @@
+.bottomNOI{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.bottomChoiceNOI{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bottomSocialMediaNOI{
+    display: flex;
+    justify-content: space-around;
+}
+.bottomSocialMediaNOI p{
+    width: 30vw;
+}
+.bottomSocialMediaNOI div {
+    display: flex;
+    width: 10vw;
+}
+.bottomSocialMediaNOI div p{
+    font-size: 25px;
+}

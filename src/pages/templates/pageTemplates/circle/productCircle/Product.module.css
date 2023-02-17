@@ -1,0 +1,97 @@
+.productBeach{
+    margin-bottom: 40px;
+}
+
+.productBeach h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.selectionSectionBeach{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+}
+.selectionFieldBeach{
+    display: flex;
+    flex-direction: column;
+}
+.selectionFieldBeach button{
+    padding: 20px;
+    border: none;
+    background-color:#f8e26700;
+    z-index: 2;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.selectionFieldBeach button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.displayingProductsBeach{
+    width:60vw;
+    display:flex ;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.displayingProductsBeach img{
+    width:15vw;
+    border-radius: 10px;
+    box-shadow:0px 10px 30px rgba(0,0,0, 0.5); 
+}
+
+
+@media(max-width:480px){
+    .productBeach h1{
+        margin-bottom: 10px;
+    }
+    .selectionSectionBeach{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .selectionFieldBeach{
+         flex-direction: row;
+    }
+    .selectionFieldBeach button{
+        font-size: 15px;
+    }
+    .displayingProductsBeach{
+        margin-left: 0;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .displayingProductsBeach img{
+        width: 90vw;
+        margin: auto;
+    }
+}
+@media(max-width:900px){
+    .selectionSectionBeach{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .selectionFieldBeach{
+        flex-direction: row;
+        margin-top: -30px;
+        justify-content: center;        
+   }
+   .displayingProductsBeach{
+        display: flex;
+        margin-left: 0px;
+        width: 100vw;
+        justify-content: center;
+        column-gap: 10px;
+        row-gap: 10px;
+
+   }
+   .displayingProductsBeach img{
+    width: 30vw;
+}
+}

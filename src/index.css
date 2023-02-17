@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#151617;
+  overflow-x: hidden;
+  color:#E3F2FD;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px; 
+}
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(#2e2e2e, #434343, #616161);   
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  box-shadow: inset 0 0 5px black;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #12171a;
+}
+
+/* For all pages */
+.closeButton{
+  position: fixed;
+  border: none;
+  top: 60px;
+  right: 10px;
+  width:2rem;
+  height: 2rem;
+  padding: 5px;
+  background: linear-gradient(180deg, rgba(255,2,102,1) 6%, rgba(245,0,87,1) 27%, rgba(176,0,32,1) 62%);
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  z-index: 100;
+  
+} 
+.closeButton:hover{
+  cursor: pointer;
+} 
+
+.greenBtn{
+  background-color:#00C853;
+  box-shadow: inset 8px 5px 44px -27px rgba(66, 68, 90, 1);
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: larger;
+  font-weight: 500;
+  color:#E3F2FD;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.greenBtn:hover{
+  transform: scale(1.03);
+  box-shadow: inset -22px -32px 62px -29px rgba(66, 68, 90, 0.57);
+}
+
+.redBtn{
+  background-color:#D81B60;
+  box-shadow: inset 8px 5px 44px -27px rgba(66, 68, 90, 1);
+  width: 10rem;
+  height: 4rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: larger;
+  font-weight: 500;
+  color:#E3F2FD;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.redBtn:hover{
+  transform: scale(1.03);
+  box-shadow: inset -22px -32px 62px -29px rgba(66, 68, 90, 1);
+}

@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+  }
+  .Board {
+    margin: 30px auto;
+    position: relative;
+    background-image: url("../../../assets/bubbles/backgroundSpace.jpg");
+    
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    border-radius: 10px;
+
+
+  } 
+  .bubbleImg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+  }
+  .boardSkills{
+    display: flex;
+    flex-direction:column;
+  }
+  .boardSkills h1{
+    text-align: center;
+  }
+  .boardSkills div{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    font-size: x-large;
+  }
+  .boardSkills div p{
+    margin: 10px;
+  }
+  .boardBubble{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .buttonForBubble{
+    display: flex;
+    align-items: center;
+    color: #E3F2FD;
+    font-size: large;
+    background-color:#0f2862; 
+    border: none;
+    border-radius: 10px;
+    transition: 0.7s;
+    z-index: 20;
+    padding: 15px;
+  }
+
+  .buttonForBubble img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+  }
+  .buttonForBubble:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+  }
+
+  .buttonForBubbleNone{
+    display: none;
+  }
+
+  @media only screen and (max-width: 480px){
+  
+  .boardSkills h1{
+    font-size: large;
+  }
+  .boardSkills div{
+    font-size: large;
+    flex-wrap: wrap;
+  }
+
+  .buttonForBubble{
+    display: none;
+  }
+    .boardBubble{
+    display: none;
+   } 
+  }
+  @media(min-width:481px) and (max-width:900px){
+    .boardSkills h1{
+      font-size: large;
+    }
+    .boardSkills div{
+      font-size: large;
+      flex-wrap: wrap;
+    }
+  
+    .buttonForBubble{
+      display: none;
+    }
+      .boardBubble{
+      display: none;
+     } 
+  }
+
+  
+

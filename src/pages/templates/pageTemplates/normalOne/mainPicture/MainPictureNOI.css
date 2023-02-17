@@ -1,0 +1,61 @@
+.mainForSliderNOI{
+    margin-top: 0vh;
+}
+.mainDivPictureNOI{
+    width: 100vw;
+    height: 100vh;
+}
+
+.imgMainPictureNOI{
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.secoundDivPictureNOI{
+    margin-top: 50vh;
+    color: whitesmoke;
+}
+.leftNOI{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    width:30vw
+}
+.rightNOI{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10vw;
+}
+.secoundDivPictureNOI h1{
+    font-size: 40px;
+}
+.secoundDivPictureNOI h2{
+    font-size: 30px;
+}
+@media(max-width:480px){
+    .secoundDivPictureNOI{
+        margin-top: 40vh;
+    }
+    .secoundDivPictureNOI h1{
+        font-size: 25px;
+    }
+    .secoundDivPictureNOI h2{
+        font-size: 20px;
+    }
+    .leftNOI{
+        width: 60vw;
+    }
+}
+@media(max-width:900px){
+    .secoundDivPictureNOI{
+        margin-top: 25vh;
+    }
+    .secoundDivPictureNOI h1{
+        font-size: 25px;
+    }
+    .secoundDivPictureNOI h2{
+        font-size: 20px;
+    }
+}

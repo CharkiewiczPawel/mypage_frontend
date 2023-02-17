@@ -1,0 +1,210 @@
+.mainCircleChoiceCCT{
+    width:100vw;
+    background: #EEEEEE;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .CircleChoiceCCT{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 7vh;
+      width: 50vw;
+      padding: 20px;
+    }
+    .toothpasteCCT{
+      height:20vw;
+      width: auto;
+    }
+    .backgroundToothpasteCCT{
+      width: 30vw;
+      height: 30vw;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .groupForbuttonICCT{
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+    }
+    .groupForbuttonICCT button{
+     border: none;
+     background-color:#f8e26700;
+     margin-bottom: -100px;
+     z-index: 2;
+     font-weight: bolder;
+     font-size: 25px;
+    }
+    .groupForbuttonICCT button a{
+      text-decoration: none;
+      color: black;
+    }
+  
+  
+    .groupForbuttonICCT button:hover{
+      cursor: pointer;
+    }
+    
+    .groupForbuttonIICCT{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .groupForbuttonIICCT button{
+      border: none;
+      background-color:#f8e26700 ;
+      margin-top: -150px;
+      font-weight: bolder;
+      font-size: 25px;
+    }
+  
+    .buttonFourCCT{
+      margin-left: 80px;
+    }
+    .groupForbuttonIICCT button:hover{
+      cursor: pointer;
+    }
+  
+   
+    .changePictureCCT{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .changePictureCCT div{
+      display: flex;
+    }
+    .changePictureCCT button{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color:#E0F2F1;
+      border-radius: 50%;
+      padding: 2vh;
+      cursor: pointer;
+      margin: 0 1vw;
+      font-weight: bold;
+      font-size: 20px;
+      width: 10vw;
+      height: 10vw;
+    }
+    .changePictureCCT button:hover{
+      opacity: 0.6;
+    }
+    .changePictureCCT button img{
+      height: 9vh;
+    }
+  
+    .changeBackgroundCCT{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .changeBackgroundCCT div{
+      display: flex;
+    }
+    .changeBackgroundCCT button{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color:#E0F2F1;
+      border-radius: 50%;
+      width: 6vw;
+      width: 10vw;
+      height: 10vw;
+      cursor: pointer;
+      margin:0 1vw;
+      margin-bottom: 4vh;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .changeBackgroundCCT button:hover{
+      opacity: 0.6;
+    }
+  
+  
+  
+    @media(max-width:480px){
+      .backgroundToothpasteCCT{
+        width: 50vw;
+        height: 50vw;
+      }
+      .backgroundToothpasteCCT img{
+        height: 40vw;
+      }
+      .groupForbuttonICCT{
+        width: 90vw;
+        justify-content: space-around;
+      }
+      .groupForbuttonICCT button{
+        margin-bottom:0
+      }
+      .groupForbuttonIICCT{
+        width: 90vw;
+        justify-content: space-around;
+      }
+      .groupForbuttonIICCT button{
+        margin-top:0
+      }
+      .buttonFourCCT{
+        margin-left:0
+      }
+      .changePictureCCT button{
+        font-size: 12px;
+        width: 22vw;
+        height: 22vw;
+      }
+      .changeBackgroundCCT button{
+        font-size: 12px;
+        font-weight: lighter;
+        width: 22vw;
+        height: 22vw;
+      }
+    }
+    @media(max-width:900px){
+      .backgroundToothpasteCCT{
+        width: 50vw;
+        height: 50vw;
+      }
+      .backgroundToothpasteCCT img{
+        height: 40vw;
+      }
+      .groupForbuttonICCT{
+        width: 90vw;
+        justify-content: space-around;
+      }
+      .groupForbuttonICCT button{
+        margin-bottom:0
+      }
+      .groupForbuttonIICCT{
+        width: 90vw;
+        justify-content: space-around;
+      }
+      .groupForbuttonIICCT button{
+        margin-top:0
+      }
+      .buttonFourCCT{
+        margin-left:0
+      }
+      .changePictureCCT button{
+        font-size: 15px;
+        width: 20vw;
+        height: 20vw;
+      }
+      .changePictureCCT button img{
+        height:auto;
+        width: 8vw;
+      }
+      .changeBackgroundCCT button{
+        font-size: 20px;
+        width: 22vw;
+        height: 22vw;
+      }
+    }

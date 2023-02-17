@@ -1,0 +1,33 @@
+.navigationNOI{
+    width: 100vw;
+    height: 1vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 4;
+  }
+  .buttonNavigationNOI{
+    display: flex;
+  }
+  
+  .navigationNOI p{
+    transition: 0.4s;
+    margin: 1vw 5vw;
+  }
+  .navigationNOI p:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  @media(max-width:480px){
+    .navigationNOI{
+     flex-direction: column;
+     margin-top: 5vh;
+     align-items: center;
+    }
+  }

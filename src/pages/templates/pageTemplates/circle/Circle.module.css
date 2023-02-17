@@ -1,0 +1,11 @@
+.AppCircle{
+    margin: 0;
+    margin-top: 70px;
+    padding: 0;
+    background-color: #BDBDBD;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}

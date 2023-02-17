@@ -1,0 +1,163 @@
+.navFOREST{
+    height: 100vh;
+    width: 100vw;    
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position-y:-10vh;
+}
+.displayNoneFOREST{
+    display: none;
+}
+.groupForNavFOREST{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 5vh;
+    background-color:  #eeeeee84;
+    animation:animationGroupForNav 2s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes animationGroupForNav{
+  0%{
+    top:-2vh;
+  }100%{
+    top:0vh;
+    color: black;
+  }
+}
+.buttonNavFOREST{
+
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+}
+.buttonNavFOREST p{
+    font-size: 20px;
+    font-weight:bolder;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.buttonNavFOREST p:hover{
+    transform: scale(1.1);
+}
+.logoFOREST{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 5vh;
+    width: 5vw;
+}
+
+.logoFOREST p{
+    margin-top: -2vh;
+    font-size: 30px;
+}
+
+.textInNavFOREST{
+    left: 11vw;
+    margin-top: 20vh;
+    position: relative;
+    color: rgba(0, 0, 0, 0);
+    animation: animationTextInNav 2s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes animationTextInNav{
+    0%{
+        left:2vw
+    }100%{
+        left:11vw;
+        color: black;
+    }
+}
+
+.textInNavFOREST h2{
+    font-size: 25px;
+}
+.textInNavFOREST p{
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+}
+
+
+
+
+@media(max-width:480px){
+    .navFOREST{
+        background-position-y:0vh;
+        background-size:180%
+    }
+    .groupForNavFOREST{
+        height: 10vh;
+        background-color:  #eeeeee7f;
+    }
+    .buttonNavFOREST p{
+        font-size: 15px;
+        font-weight:bolder;
+        cursor: pointer;
+        transition: 0.2s;
+        text-align: center;
+        margin: 0 1vw;
+    }
+    .textInNavFOREST{
+        margin-top: 4vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;       
+    }
+    .textInNavFOREST h1{
+        font-size: 18px;
+        text-align: center;
+    }
+    .textInNavFOREST h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: -1vh;
+    }
+    .textInNavFOREST p{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+@media(min-width:481px) and (max-width:900px){
+    .navFOREST{
+        background-position-y:0vh;
+        background-size:180%
+    }
+    .groupForNavFOREST{
+        height: 15vh;
+        background-color:  #eeeeee7f;
+    }
+    .logoFOREST{
+        margin-top: 10vh;
+    }
+    .buttonNavFOREST p{
+        font-size: 15px;
+        font-weight:bolder;
+        cursor: pointer;
+        transition: 0.2s;
+        text-align: center;
+        margin: 0 1vw;
+        margin-top: 1vh;
+    }
+    .textInNavFOREST{
+        margin-top: 20vh;
+        width: 80vw;      
+    }
+    .textInNavFOREST h1{
+        font-size: 18px;
+    }
+    .textInNavFOREST h2{
+        font-size: 15px;
+        margin-top: -1vh;
+    }
+    .textInNavFOREST p{
+        font-size: 12px;
+    }
+
+}

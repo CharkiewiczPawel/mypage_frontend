@@ -1,0 +1,45 @@
+.bottomBeach{
+    border-top: 2px solid #9E9E9E;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+.bottomBeach{
+    display: flex;
+    text-align: center;
+}
+.bottomBeach button{
+    border: none;
+    background-color:#f8e26700;
+    margin-bottom: -100px;
+    z-index: 2;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.bottomBeach button:hover{
+    cursor: pointer;
+}
+.socialMediaBeach{
+    display: flex;
+    flex-direction: column;
+}
+.socialMediaBeach div{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.socialMediaBeach div p{
+    padding: 10px;
+}
+
+
+
+@media(max-width:480px){
+    .bottomBeach{
+        flex-direction: column;
+    }
+    .socialMediaBeach div p{
+        padding: 1px;
+        margin-top: -5px;
+    }
+}

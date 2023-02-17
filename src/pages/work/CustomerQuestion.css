@@ -1,0 +1,66 @@
+.buttonCustomerQuestion{
+    width: 100px;
+    height: 50px;
+}
+.question_container{
+    height: 65vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 3px solid black;
+    border-right: none;
+    padding: 15px;
+    background: linear-gradient(180deg, rgba(227,242,253,1) 35%, rgba(174, 221, 255, 0.504) 100%);
+
+}
+.customerQuestion_container{
+    background: linear-gradient(326deg, rgba(170, 0, 255, 0.488) 29%, rgba(212, 0, 249, 0.449) 76%, rgba(223, 64, 251, 0.707) 92%);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.429);
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.customerQuestion_container p{
+    text-align: center;
+}
+.customerEmail{
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    
+}
+.customerMessage{
+    font-size: 17px;
+    font-weight: 500;
+}
+.customerDate{
+    color: #E3F2FD;
+    font-size: 12px;
+    border-top:1px solid black; ;
+}
+.customerDateAgo{
+    color: #E3F2FD;
+    font-size: 12px;
+    margin-top: -10px; 
+}
+
+
+@media only screen and (max-width: 480px){
+    .customerQuestion_container{
+        width: 90%;
+    }
+}
+@media(min-width:481px) and (max-width:900px){
+    .question_container{
+        width: 90%;
+    }
+    .customerQuestion_container{
+        width: 90%;
+    }
+}

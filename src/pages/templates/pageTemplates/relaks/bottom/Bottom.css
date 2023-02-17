@@ -1,0 +1,68 @@
+.bottomRELAKS{
+    margin-top: 5vh;
+    background:#000000b3;
+    color: whitesmoke;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoBottomRelaksRELAKS{
+    display: flex;
+    padding: 1vw;
+    margin-top: 1vh
+}
+.logoBottomRelaksRELAKS p{
+    font-size: 40px;
+    margin-left: 0.5vw;
+}
+.logoBottomRelaksRELAKS img{
+    height: 150px;
+}
+.contactRELAKS{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.contactRELAKS p {
+    font-size: 25px;
+}
+.addressRELAKS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .addressRELAKS p{
+    font-size: 25px;
+ }
+.map-containerRELAKS{
+    width:25vw;
+    height: 40vh;
+    margin-top: 5vh;
+    }
+
+     
+    @media(max-width:480px){
+        .bottomRELAKS{
+            flex-direction: column;
+            align-items: center;
+        }
+        .map-containerRELAKS{
+            width:70vw;
+            margin-bottom: 1vh;
+        }
+    }
+
+    @media(min-width:481px) and (max-width:900px){
+        .bottomRELAKS{
+            flex-direction: column;
+            align-items: center;
+        }
+        .map-containerRELAKS{
+            width:70vw;
+            height: 80vh;
+            margin-bottom: 1vh;
+        }
+    }

@@ -1,0 +1,27 @@
+.navigationBeach{
+    width: 95vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boardNavigationBeach{
+    display: flex;
+}
+.boardNavigationBeach p{
+    margin-left: 5vw;
+    font-weight: bold;
+}
+.boardNavigationBeach a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:480px){
+    .navigationBeach{
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

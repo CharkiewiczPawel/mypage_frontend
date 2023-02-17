@@ -1,0 +1,21 @@
+.movieRELAKS{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background:#000000b3;
+    margin-top:5vh ;
+}
+.movieRELAKS iframe{
+    width: 80vw;
+    height: 60vh;
+}
+
+@media(max-width:480px){
+    .movieRELAKS{
+        align-items: center;
+    }
+    .movieRELAKS iframe{
+        width: 99vw;
+        height: 45vh;
+    }
+}

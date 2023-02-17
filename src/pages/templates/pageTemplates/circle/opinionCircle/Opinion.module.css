@@ -1,0 +1,71 @@
+.mainOpinionBeach{
+    background-color: #EEEEEE;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opinonBeach{
+    display: flex;
+}
+
+.opinonBeach div{
+    background: rgb(116, 116, 116);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    margin: 60px;
+    border-radius: 10px;
+}
+
+.opinonBeach div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.opinonBeach div p{
+   text-align: center;
+   padding: 20px;
+   width: 15vw;
+   border-top: 2px solid #9E9E9E;
+}
+
+
+@media(max-width:480px){
+
+    .opinonBeach{
+        display: flex;
+        flex-direction: column;
+    }
+    .opinonBeach div{
+        width: 90vw;
+        margin: 20px;
+    }
+    .opinonBeach div img{
+        margin-top: 0;
+    }
+
+    .opinonBeach div p{
+        width: 80vw;
+    }
+}
+@media(max-width:900px){
+    .opinonBeach{
+        display: flex;
+        flex-direction: column;
+    }
+    .opinonBeach div{
+        width: 90vw;
+        margin: 20px;
+    }
+    .opinonBeach div img{
+        margin-top: 10px;
+    }
+
+    .opinonBeach div p{
+        width: 80vw;
+    }
+}

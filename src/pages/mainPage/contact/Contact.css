@@ -1,0 +1,126 @@
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100vw;    
+    background-color:#151617f4;
+    padding-top: 50px;
+}
+
+.contact h1{
+        border-top: 3px solid #E3F2FD ;
+        width: 80vw;
+        text-align: center;
+        padding: 10px;
+}
+.elements_contact{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.contact_container{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.customerQuestion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customerQuestion button{
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.452);
+}
+.customerQuestion button:hover{
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.815);
+}
+.questionForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#FFF;
+    padding: 10px;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+.customerEmailInput{
+    width: 80%;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.customerTextArea{
+    width: 80%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.customerQuestionAnswer{
+    color:#00C853 ;
+}
+.customerQuestionError{
+    color: #D81B60;
+}
+.disAgreeCookies{
+    color: #D81B60;
+    font-weight: 500;
+}
+.privatePolicyInContact{
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    
+}
+.privatePolicyInContact:hover{
+    transform: scale(1.1);
+    color: #00C853;
+}
+
+@media only screen and (max-width: 480px){
+    .elements_contact{
+        flex-direction: column;
+    }
+    .contact_container{
+        text-align: center;
+        width: 100vw;
+    }
+    .contact_container p{
+        width:80vw;
+        margin: auto;
+    }
+    .questionForm{
+        width: 80vw;
+        height: 40vh;
+    }
+    .customerQuestionAnswer{
+        text-align: center;
+    }
+    .customerQuestionError{
+        text-align: center;
+    }
+}
+@media(min-width:481px) and (max-width:900px){
+    .elements_contact{
+        flex-direction: column;
+    }
+    .contact_container{
+        text-align: center;
+        width: 100vw;
+    }
+    .contact_container p{
+        width:80vw;
+        margin: auto;
+    }
+    .questionForm{
+        width: 50vw;
+        height: 40vh;
+    }
+}

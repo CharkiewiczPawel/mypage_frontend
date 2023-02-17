@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+.videoDivHeaderCM{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    position: absolute;
+    text-align: center;
+  }
+  .videoDivCM{
+    width: 100vw;
+    height: 70vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  video{
+    width: 100vw;
+    height: 70vh;
+    object-fit: fill;
+  }
+  .placeContactCM{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin:5vh;
+    background: rgb(238,238,238);
+    background: radial-gradient(circle, rgba(238,238,238,1) 0%, rgba(193,193,193,1) 0%, rgba(238,238,238,1) 100%);
+    border-radius: 15px;
+  }
+  .contactCM{
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    margin-left: 10vw;
+    padding:0 5vw;
+    margin-right: 30vw;
+    border-radius: 20px;
+  }
+  .contactCM h1{
+    font-size: 40px;
+  }
+  .contactCM h3{
+    font-size: 28px;
+    border-bottom: 3px solid #9E9E9E;
+    width:10vw
+  }
+  .contactCM p{
+    font-size: 20px;
+    margin-top: -1vh;
+  }
+  
+  .map-containerCM{
+  width:25vw;
+  height: 40vh;
+  margin-top: 5vh;
+  }
+  .socialMediaCM{
+    display: flex;
+    flex-direction: column;
+  }
+  .socialMediaCM div{
+    display: flex;
+  }
+  .socialMediaCM p{
+    font-size: 40px;
+    margin:0.5vh;
+  }
+  @media(max-width:991px){
+    .placeContactCM{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .contactCM h3{
+      width:100%
+    }
+    .map-containerCM{
+      width:70vw;
+      height: 50vh;
+      margin: 2vh;
+    }
+  }

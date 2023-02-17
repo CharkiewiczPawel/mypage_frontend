@@ -1,0 +1,75 @@
+
+.firstText{
+    margin: 200px;
+    margin-top: 250px;
+    position:absolute
+}
+
+.firstText h1{
+    font-size: 4.5rem;
+    color: #E3F2FD;
+    animation: moveh1 2s
+}
+@keyframes moveh1{
+    0%{
+       margin-left: 300px; 
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+.firstText h2{
+    font-size: 1.5rem;
+    color: #E3F2FD;
+    animation: moveh2 3s
+}
+@keyframes moveh2{
+    0%{
+       margin-left: 250px; 
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+
+.firstText p{
+    color: #E3F2FD;
+    font-size: 2.5rem;
+}
+
+
+
+@media only screen and (max-width: 480px){
+  .firstText{
+    position: relative;
+    margin: 50px;
+    margin-top: 10px;
+  }
+  .firstText h1{
+    font-size: 2rem;
+}
+.firstText h2{
+    font-size: 1rem;
+}
+.firstText p{
+    font-size: 1rem;
+}
+}
+@media(min-width:481px) and (max-width:900px){
+    .firstText{
+        position: relative;
+        margin: 50px;
+        margin-top: 10px;
+      }
+      .firstText h1{
+        font-size: 2rem;
+    }
+    .firstText h2{
+        font-size: 1rem;
+    }
+    .firstText p{
+        font-size: 1rem;
+    } 
+}

@@ -1,0 +1,265 @@
+.mainBoardNOI{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstTextNOI{
+    font-size: 30px;
+    margin: 15vh 20vw 15vh 20vw;
+    text-align: justify;
+}
+.mainArticleNOI{
+    background-color: rgb(209, 208, 208);
+    width: 100vw;
+}
+.mainArticleNOI h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5vh;
+    
+}
+.sectioninLeftNOI{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.sectioninRightNOI{
+    display: flex;
+    justify-content: flex-end;
+}
+.mainArticleNOI section img{
+    height: 70vh;
+    width: 50vw;
+}
+.divInSectionRightNOI{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 4vw;
+}
+.divInSectionRightNOI p{
+    font-size: 30px;
+}
+
+.divInSectionLeftNOI{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 5vw;
+}
+.divInSectionLeftNOI p{
+    font-size: 30px;
+    text-align: end;
+}
+.afterArticleNOI{
+    background-color: rgb(209, 208, 208);
+    margin-top: 10vh;
+}
+.afterArticleNOI h1{
+    padding-top: 5vh;
+}
+.textInPictureNOI{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.textInPictureOneNOI{
+    width: 20vw;
+    height: 35vh;
+    color: rgba(255, 255, 255, 0.018);
+    transition: 1s;
+}
+.textInPictureOneNOI:hover{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.textInPictureOneNOI img{
+    width: 20vw;
+    height: 35vh;
+    z-index: 3;
+    position: absolute;
+    transition: 0.5s;
+}
+.textInPictureOneNOI img:hover{
+    filter: brightness(0.15);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.textInPictureDivforPNOI{
+    z-index: 2;
+    position: absolute;
+    width: 20vw;
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 30px;
+}
+
+.textInPictureTwoNOI{
+    width: 20vw;
+    height: 35vh;
+    color: rgba(255, 255, 255, 0.018);
+    transition: 1s;
+}
+.textInPictureTwoNOI:hover{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.textInPictureTwoNOI img{
+    width: 20vw;
+    height: 35vh;
+    z-index: 3;
+    position: absolute;
+    transition: 0.5s;
+}
+.textInPictureTwoNOI img:hover{
+    filter: brightness(0.15);
+    z-index: 1;
+    cursor: pointer;
+}
+.textAfterArticleNOI{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 30px;
+    text-align: justify;
+}
+
+@media(max-width:480px){
+    .firstTextNOI{
+        margin: 5vh;
+        text-align: center;
+    }
+    .sectioninLeftNOI{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 5vw;
+        text-align: center;
+    }
+    .mainArticleNOI section img{
+        width: 80vw;
+        height: auto;
+    }
+
+    .sectioninRightNOI{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 5vw;
+        margin-bottom: 5vh;
+        justify-content: center;
+    }
+    .divInSectionLeftNOI{
+        align-items: center;
+    }
+    .divInSectionLeftNOI p{
+        text-align: center;
+        
+    }
+    .textInPictureNOI{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .textInPictureOneNOI{
+        width: 80vw;
+        height: 70vh;
+        color: rgb(255, 255, 255);
+  
+    }
+    .textInPictureOneNOI img{
+        width: 80vw;
+        height: 50vh;
+        justify-content: center; 
+        z-index: 1;
+    }
+    .textInPictureDivforPNOI{
+        width: 80vw;
+        height: 70vh;
+    }
+    .textInPictureTwoNOI{
+        width: 80vw;
+        height: 70vh;
+        color: rgb(255, 255, 255);
+        margin-top: -15vh;
+    }
+    .textInPictureTwoNOI img{
+        width: 80vw;
+        height: 50vh;
+        justify-content: center; 
+        z-index: 1;
+    }
+    .textAfterArticleNOI{
+        margin-top: -15vh;
+    }
+}
+@media(max-width:900px){
+    .firstTextNOI{
+        margin: 5vh;
+        text-align: center;
+    }
+    .sectioninLeftNOI{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 5vw;
+        text-align: center;
+    }
+    .mainArticleNOI section img{
+        width: 80vw;
+        height: auto;
+    }
+    .sectioninRightNOI{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 5vw;
+        margin-bottom: 5vh;
+        justify-content: center;
+    }
+    .divInSectionRightNOI{
+        align-items: center;
+    }
+    .divInSectionLeftNOI{
+        align-items: center;
+    }
+    .divInSectionLeftNOI p{
+        text-align: center;
+    }
+    .textInPictureNOI{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .textInPictureOneNOI{
+        width: 80vw;
+        height: 70vh;
+        color: rgb(255, 255, 255);
+  
+    }
+    .textInPictureOneNOI img{
+        width: 80vw;
+        height: 50vh;
+        justify-content: center; 
+        z-index: 1;
+    }
+    .textInPictureDivforPNOI{
+        width: 80vw;
+        height: 70vh;
+    }
+    .textInPictureTwoNOI{
+        width: 80vw;
+        height: 70vh;
+        color: rgb(255, 255, 255);
+        margin-top: -15vh;
+    }
+    .textInPictureTwoNOI img{
+        width: 80vw;
+        height: 50vh;
+        justify-content: center; 
+        z-index: 1;
+    }
+    .textAfterArticleNOI{
+        margin-top: -15vh;
+    }
+
+}

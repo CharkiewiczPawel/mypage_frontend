@@ -1,0 +1,123 @@
+.mainCircleChoice{
+    width:100vw;
+    background: #EEEEEE;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .CircleChoice{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 5vh;
+      width: 50vw;
+      padding: 20px;
+    }
+    .toothpaste{
+      height:20vw;
+      width: auto;
+    }
+    .backgroundToothpaste{
+      background: linear-gradient(0deg, rgba(234,120,71,0) 18%, rgba(239,123,72,0.7903536414565826) 44%, rgba(229,118,70,1) 62%);
+      width: 30vw;
+      height: 30vw;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .groupForbuttonI{
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+    }
+    .groupForbuttonI button{
+     border: none;
+     background-color:#f8e26700;
+     margin-bottom: -100px;
+     z-index: 2;
+     font-weight: bolder;
+     font-size: 25px;
+    }
+    .groupForbuttonI button a{
+      text-decoration: none;
+      color: black;
+    }
+  
+  
+    .groupForbuttonI button:hover{
+      cursor: pointer;
+    }
+    
+    .groupForbuttonII{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .groupForbuttonII button{
+      border: none;
+      background-color:#f8e26700 ;
+      margin-top: -150px;
+      font-weight: bolder;
+      font-size: 25px;
+    }
+  
+    .buttonFour{
+      margin-left: 80px;
+    }
+    .groupForbuttonII button:hover{
+      cursor: pointer;
+    }
+  
+    @media(max-width:480px){
+      .backgroundToothpaste{
+        width: 50vw;
+        height: 50vw;
+      }
+      .backgroundToothpaste img{
+        height: 40vw;
+      }
+      .groupForbuttonI{
+        width: 90vw;
+        justify-content: space-around;
+      }
+      .groupForbuttonI button{
+        margin-bottom:0
+      }
+      .groupForbuttonII{
+        width: 90vw;
+        justify-content: space-around;
+      }
+      .groupForbuttonII button{
+        margin-top:0
+      }
+      .buttonFour{
+        margin-left:0
+      }
+    }
+    @media(max-width:900px){
+      .backgroundToothpaste{
+        width: 50vw;
+        height: 50vw;
+      }
+      .backgroundToothpaste img{
+        height: 40vw;
+      }
+      .groupForbuttonI{
+        width: 90vw;
+        justify-content: space-around;
+      }
+      .groupForbuttonI button{
+        margin-bottom:0
+      }
+      .groupForbuttonII{
+        width: 90vw;
+        justify-content: space-around;
+      }
+      .groupForbuttonII button{
+        margin-top:0
+      }
+      .buttonFour{
+        margin-left:0
+      }
+    }

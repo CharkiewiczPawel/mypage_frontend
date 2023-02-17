@@ -1,0 +1,118 @@
+.englishAdmin{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.wordPanel_admin{
+    display: flex;
+    align-items: center;
+}
+.wordPanel_admin button{
+    margin-left: 10px;
+}
+
+/* Wprowadzanie słówek */
+.englishLanguageWork form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    align-items: center;
+    border: 2px solid #E3F2FD;
+    border-radius: 20px;
+    background-color: #e3f2fd14;;
+}
+.englishLanguageWork form input{
+    margin:10px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #E3F2FD;
+    
+}
+.englishLanguageWork form input:focus{
+    outline: none;
+}
+/* Dictionary */
+.main_dictionaryAdmin_container{
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    height:80vh;
+    font-size: 20px;
+    
+}
+.dictionaryAdmin_container{
+    display: flex;
+    width: 50vh;
+}
+.englishWord_dictionaryAdmin{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    align-items: center;
+}
+.word_dictionaryAdmin{
+    color: #00C853;
+    font-weight: 600;
+}
+
+.country_dictionaryAdmin{
+    color: gray;
+    margin-top: -1rem;
+}
+.pronunciation_dictionaryAdmin{
+    color: gray;
+}
+.p_pronunciation_dictionaryAdmin{
+    margin-top: -1rem; 
+}
+
+@media only screen and (max-width: 480px){
+    .wordPanel_admin h3{
+     width: 50vw;
+     text-align: center;
+    }
+    .englishLanguageWork form{
+      width: 80vw;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    .main_dictionaryAdmin_container{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .dictionaryAdmin_container{
+        width: 70vw;
+        justify-content: center;
+    }
+    .englishWord_dictionaryAdmin{
+        margin-right: 4px;
+    }
+}
+
+@media(min-width:481px) and (max-width:900px){
+    .englishLanguageWork form{
+        margin: auto;
+        width: 80vw;
+        margin-bottom: 10px;
+      }
+      .main_dictionaryAdmin_container{
+        margin-left: 10px;
+        font-size: 14px;
+        height:100vh;
+    }
+    .dictionaryAdmin_container{
+        width: 100vw;
+        justify-content: center;
+    }
+    .englishWord_dictionaryAdmin{
+        margin-right: 6px;
+    }
+}

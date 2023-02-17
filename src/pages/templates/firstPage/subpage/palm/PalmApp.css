@@ -1,0 +1,173 @@
+.PalmAppPalm{
+    margin-top: 70px;
+    background-color: whitesmoke;
+    color: black;
+}
+.AboutusPalm{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+   }
+   
+   .AboutUsNavbarBeachPalm{
+       display: flex;
+       width: 90vw;
+       margin: 20px;
+       justify-content: space-between;     
+   }
+   .AboutUsNavbarBeachPalm h2{
+    margin-left: 50px;
+   }
+   .AboutUsNavbarContactBeachPalm{
+       display: flex;
+   }
+   .AboutUsNavbarContactBeachPalm p {
+       margin: 20px;
+   }
+   .AboutUsNavbarSocialMediaBeachPalm{
+       display: flex;    
+   }
+   .AboutUsNavbarSocialMediaBeachPalm p{
+       margin: 20px;
+       font-size: 25px;
+   }
+   .AboutUsHeaderPalm{
+       display: flex;
+       background: #EEEEEE;
+       padding: 50px 50px;
+   }
+   .AboutUsHeaderPalm img{
+       width: 20vw;
+   }
+   .AboutUsHeaderNameCompanyPalm{
+       width: 50vw;
+       margin-left: 100px;
+       margin-right: 150px;
+       margin-top: 70px;
+   }
+   .AboutUsBodyMainPalm{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .AboutUsBodyPalm{
+       display: flex;
+       justify-content: space-between;
+       width: 70vw;
+       margin-top: 100px;
+   }
+   
+   .AboutUsBodyContentPalm{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 15vw;
+   }
+   .AboutUsBodyContentPalm div{
+       background-color:#fafafaa0;
+       border-radius: 10px;
+       padding: 10px;
+   }
+   .AboutUsBodyContentPalm div img{
+       width: 10vw;
+       height: 12rem;
+   }
+   .AboutUsBodyContentPalm p{
+       text-align: center;
+   }
+   
+   .AboutUsBodyMainPalm button{
+       border: none;
+       background: linear-gradient(0deg, rgba(35,177,235,0.9248074229691877) 12%, rgba(135,206,235,1) 39%);
+       border-radius: 20px;
+       width: 10vw;
+       padding: 10px;
+       font-weight: bolder;
+       font-size: 25px;
+       margin: 100px;
+       transition: 0.2s;
+   }
+   .AboutUsBodyMainPalm button:hover{
+     cursor: pointer;
+     transform: scale(1.05);
+     transition: 0.2s;
+   }
+   .AboutUsBodyMainPalm button a {
+       text-decoration: none;
+       color: black;
+   }
+
+
+
+
+   @media(max-width:480px){
+    .AboutUsNavbarBeachPalm{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    .AboutUsNavbarBeachPalm h2{
+        margin-left: 0px;
+       }
+    .AboutUsHeaderPalm{
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        width: 99vw;
+        margin-top: 10px;
+    }
+    .AboutUsHeaderNameCompanyPalm{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .AboutUsHeaderPalm img{
+        width: 60vw;
+    }
+    .AboutUsBodyMainPalm{
+        justify-content: center;
+        text-align: center;
+    }
+    .AboutUsBodyPalm{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        width: 90vw;
+    }
+    .AboutUsBodyContentPalm{
+        width: 90vw;
+    }
+    .AboutUsBodyContentPalm div img{
+        width: 50vw;
+        height: auto;
+    }
+    .AboutUsBodyMainPalm button{
+        width: 40vw;
+        margin: 35px;
+    }
+   }
+   @media(max-width:900px){
+    .AboutUsHeaderNameCompanyPalm{
+        width: 60vw;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .AboutUsBodyMainPalm{
+        justify-content: center;
+        text-align: center;
+    }
+    .AboutUsBodyContentPalm div img{
+        width: 20vw;
+        height: 30vh;
+    }
+    .AboutUsBodyMainPalm button{
+        width: 40vw;
+        margin: 35px;
+    }
+   }

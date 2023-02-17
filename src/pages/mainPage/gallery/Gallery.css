@@ -1,0 +1,25 @@
+.weddingGallery{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.galleryWeddingSelection button{
+    margin:1vw;
+}
+@media only screen and (max-width: 480px){
+    .weddingGallery h1{
+        text-align: center;
+        margin-top: -100px;
+    }
+}
+@media(min-width:481px) and (max-width:900px){
+    .weddingGallery h1{
+        margin-top: -100px;
+    }
+    .galleryWeddingSelection button{
+        margin-top:10px;
+    } 
+}
