@@ -6,3 +6,9 @@
     z-index: -1;
     transform: translateX(10VW);
 }
+@media only screen and (max-width: 480px){
+    .space{
+        width: 100vw;
+        transform: translateX(-10VW);
+    }
+}
